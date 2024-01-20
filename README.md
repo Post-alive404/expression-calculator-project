@@ -1,6 +1,6 @@
 # Expression Calculator
 
-Create a servlet, serving expression value calculating.
+This is a servlet, serving expression value calculating.
 
 It must serve `GET` requests.
 
@@ -14,5 +14,4 @@ Register servlet to serve at `/calc` context path.
 
 All calculations must be integer. 
 
-Refer to unit tests to get details of other implementation restrictions. 
  

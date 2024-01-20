@@ -107,7 +107,7 @@ public class EvaluateString
     // Returns true if 'op2' has higher
     // or same precedence as 'op1',
     // otherwise returns false.
-    public static boolean hasPrecedence(
+    private static boolean hasPrecedence(
             char op1, char op2)
     {
         if (op2 == '(' || op2 == ')')
@@ -119,7 +119,7 @@ public class EvaluateString
     // A utility method to apply an
     // operator 'op' on operands 'a'
     // and 'b'. Return the result.
-    public static int applyOp(char op,
+    private static int applyOp(char op,
                               int b, int a)
     {
         switch (op)
@@ -141,6 +141,6 @@ public class EvaluateString
     }
 
     public static void main(String[] args) {
-        System.out.println(evaluate("2+(4*2+3)-1"));
+        System.out.println(evaluate("hgh"));
     }
 }
